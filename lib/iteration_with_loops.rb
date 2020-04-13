@@ -1,4 +1,4 @@
-# Output all even values in ea 2D array src
+# Output all even values in the 2D array src
 def find_even_values(src)
 row = 0
 even = [ ]
