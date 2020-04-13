@@ -1,6 +1,20 @@
+# Output all even values in ea 2D array src
 def find_even_values(src)
-  # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
-  #
-  # Output all even values in each nested array
-
+row = 0
+  while row < src.length do
+  element = 0
+     while element<src.length[row][element] do
+       if src.length[row][element] % 2 == 0
+         p src.length[row][element]
+       end
+     element+=1
+     end
+  row +=1
+  end
 end
+
+
+# Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
+  
+#number%2 = 0 if number is even
+
