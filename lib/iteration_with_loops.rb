@@ -1,6 +1,7 @@
 # Output all even values in ea 2D array src
 def find_even_values(src)
 row = 0
+even = [ ]
   while row < src.length do
   element = 0
      while element<src.length[row][element] do
