@@ -1,9 +1,9 @@
 # Output all even values in the 2D array src
 def find_even_values(src)
 row = 0
-  while row < src.length do
+  while row < src.count do
   element = 0
-     while element<src[row].length do
+     while element<src[row].count do
        if src.length[row][element] % 2 == 0
        p src.length[row][element]
        end
