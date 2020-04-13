@@ -13,7 +13,3 @@ row = 0
   end
 end
 
-# Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
-  
-#number%2 = 0 if number is even
-
