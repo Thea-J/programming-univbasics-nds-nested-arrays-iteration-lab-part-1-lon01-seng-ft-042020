@@ -6,12 +6,13 @@ even = [ ]
   element = 0
      while element<src.length[row][element] do
        if src.length[row][element] % 2 == 0
-         p src.length[row][element]
+         even<< src.length[row][element]
        end
      element+=1
      end
   row +=1
   end
+  even.
 end
 
 
